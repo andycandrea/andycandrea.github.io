@@ -32,10 +32,6 @@ html, body {
     height: calc(100% - 4em);
 }
 
-.blog_body .row-fluid {
-    height: calc(100% - 1em);
-}
-
 .email {
     float: left;
     text-align: right;
@@ -55,6 +51,7 @@ html, body {
     padding-top: 0.75em;
     margin-top: 1em;
     margin-bottom: 1em;
+    top: 3em;
 }
 
 a:link {
