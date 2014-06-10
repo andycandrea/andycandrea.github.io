@@ -1,0 +1,4 @@
+name: "Andy's Blog"
+description: "Andy's Viget Internship Blog"
+url: "http://localhost:4000"
+paginate: 10

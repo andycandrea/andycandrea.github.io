@@ -1,0 +1,23 @@
+.pagination {
+    width: 100%;
+}
+
+.disabled {
+    color: gray;
+}
+
+.prev_div {
+    float: left;
+}
+
+.next_div {
+    float: right;
+}
+
+.brand {
+    color: orange;
+}
+
+body {
+    padding-top: 75px;
+}
