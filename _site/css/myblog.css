@@ -32,6 +32,15 @@ html, body {
     height: calc(100% - 4em);
 }
 
+.footer {
+    border-top: 0.5em solid orange;
+    padding-top: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    top: 3em;
+    text-align: center;
+}
+
 .email {
     float: left;
     text-align: right;
@@ -40,18 +49,6 @@ html, body {
 .github {
     float: right;
     text-align: left;
-}
-
-.name {
-    text-align: center;
-}
-
-.footer {
-    border-top: 0.5em solid orange;
-    padding-top: 0.75em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    top: 3em;
 }
 
 a:link {
@@ -75,4 +72,8 @@ a.brand {
 
 a.brand:hover {
     color: #E8800C;
+}
+
+#disqus_thread {
+    margin-top: 15em;
 }

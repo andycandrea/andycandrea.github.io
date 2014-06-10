@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andy&#39;s Blog</title>
+    <description>Andy&#39;s Viget Internship Blog</description>
+    <link>http://andycandrea.github.io</link>
+    <atom:link href="http://andycandrea.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Welcome to the blog</title>
+        <description>&lt;p&gt;Welcome to my blog! This is where I’ll be chronicling my summer as a Rails Dev intern at Viget’s Durham office. I’ll be keeping track of my progress on each of the projects that I work on, the technologies that I’m learning and any interesting resources or bugs I come across. Thanks for reading!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://andycandrea.github.io//2014/06/10/welcome.html</link>
+        <guid isPermaLink="true">http://andycandrea.github.io//2014/06/10/welcome.html</guid>
+      </item>
+    
+      <item>
+        <title>Day 1</title>
+        <description>&lt;p&gt;My first day was mostly spent setting up my machine, which consisted of installing the different technologies I’ll be using over the course of the summer–Ruby, Rails, etc–and getting reacquainted with OSX. I also got to learn more about Viget and started constructing this blog, which required getting myself familiar with Jekyll. In addition to Jekyll, I also used Bootstrap for the nav bar and basic layout help.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://andycandrea.github.io//2014/06/10/day-1.html</link>
+        <guid isPermaLink="true">http://andycandrea.github.io//2014/06/10/day-1.html</guid>
+      </item>
+    
+  </channel>
+</rss>
