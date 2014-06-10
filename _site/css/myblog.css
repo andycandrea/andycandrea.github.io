@@ -1,5 +1,7 @@
 .pagination {
     width: 100%;
+    margin-bottom: 0em;
+    margin-top: 2em;
 }
 
 .disabled {
@@ -19,5 +21,61 @@
 }
 
 body {
-    padding-top: 75px;
+    padding-top: 6em;
+}
+
+html, body {
+    height: 100%;
+}
+
+.blog_body {
+    height: calc(100% - 4em);
+}
+
+.blog_body .row-fluid {
+    height: calc(100% - 1em);
+}
+
+.email {
+    float: left;
+    text-align: right;
+}
+
+.github {
+    float: right;
+    text-align: left;
+}
+
+.name {
+    text-align: center;
+}
+
+.footer {
+    border-top: 0.5em solid orange;
+    padding-top: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+a:link {
+    color: #0064E0;
+    color: #0050B2;
+}
+
+a:hover {
+    color: #40C8FF;
+}
+
+a:visited {
+    color: #0050B2;
+    color: #56A0D3;
+}
+
+a.brand {
+    color: orange;
+    text-decoration: none;
+}
+
+a.brand:hover {
+    color: #E8800C;
 }
