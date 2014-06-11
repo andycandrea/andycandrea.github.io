@@ -1,6 +1,7 @@
 ---
 title: Day 2 - The Blog
 layout: post
+description: Building my blog on day 2.
 comments: true
 ---
 Though I got started making this blog yesterday, I got the chance to devote a lot more time to it today. I had managed to get the basic functionality done yesterday afternoon in between orientation meetings, so I started off the day working on the aesthetic. After tinkering with the layout and color scheme for a few hours, I decided to add a comment feature, so I spent some time looking at [Disqus](http://disqus.com/), [IntenseDebate](https://www.intensedebate.com/) and [Juvia](https://github.com/phusion/juvia). While I really appreciated that Juvia was open source, I was turned off by the fact that it doesn't seem well supported---several of the most recent commit messages reference starting to upgrade for Rails 3.2 rather than the current 4.1. As a result, I ended up going for Disqus.
