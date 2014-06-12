@@ -2,6 +2,7 @@
 layout: post
 title: Day 3 - Finishing the blog and moving on
 comments: true
+description: Today I finished up my blog for the time being and checked out some Vim plugins.
 ---
 Today, I put some finishing touches on my blog, which included making a custom 404 page (see [here](http://andycandrea.github.io/404.html)) and adding a sitemap. Knowing that Github Pages runs Jekyll using the `--safe` flag, which prevents Jekyll plugins from running, I originally looked into generating the sitemap myself. However, I soon discovered that [Jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) is one of the [four plugins currently supported](https://help.github.com/articles/using-jekyll-plugins-with-github-pages) by GitHub Pages. It also happens to be very [easy to use](https://help.github.com/articles/sitemaps-for-github-pages).
 
