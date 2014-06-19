@@ -41,16 +41,6 @@ html, body {
     text-align: center;
 }
 
-.email {
-    float: left;
-    text-align: right;
-}
-
-.github {
-    float: right;
-    text-align: left;
-}
-
 a:link {
     color: #0064E0;
     color: #0050B2;
