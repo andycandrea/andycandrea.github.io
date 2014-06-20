@@ -3,5 +3,6 @@ description: "Andy's Viget Internship Blog"
 url: "http://andycandrea.github.io"
 paginate: 10
 highlighter: pygments
+markdown: kramdown
 gems:
   - jekyll-sitemap
