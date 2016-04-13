@@ -1,9 +1,9 @@
-# My Vigeblog
+# andycandrea.github.io
 
-This repository contains the source files for my Jekyll blog found [here](andycandrea.github.io). The blog currently supports comments via [Disqus](disqus.com) and has an RSS feed [here](andycandrea.github.io/feed.xml). Over the course of the summer, I plan to add:
+This repo contains the source code for my personal website and Jekyll blog that
+can be found at [andycandrea.github.io](andycandrea.github.io). The theme is
+based on [end2end](https://github.com/nandomoreirame/end2end) by [Fernando
+Moreira](https://github.com/nandomoreirame).
 
-* Post categorization
-* ~~A sitemap~~ Added in [this commit](https://github.com/andycandrea/andycandrea.github.io/commit/e3a90b9750d011f8eb07565ddea0bc7388cfb8d5)
-* Post excerpts on the main page
-
-I'll also be tweaking the layout to make it more mobile-friendly.
+The original version of this site containing the blog posts I wrote for my
+internship at [Viget](viget.com) is archived on the `internship-blog` branch.

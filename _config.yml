@@ -1,12 +1,48 @@
-name: "Andy's Blog"
-description: "Andy's Viget Internship Blog"
-url: "http://andycandrea.github.io"
+name: 'Andy Andrea'
+description: "Andy's Blog"
+url: 'http://andycandrea.github.io'
 
-paginate: 10
+paginate: 5
 highlighter: pygments
 markdown: kramdown
 
 gems:
 - jekyll-sitemap
 - jekyll-mentions
+- jekyll-paginate
 - jemoji
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: 'Andy Andrea'
+keywords: 'andy, andrea, ruby, rails, durham, nc, blog, web'
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/andycandrea/andycandrea.github.io
+
+# Author settings
+author:
+  name      : Andy Andrea
+  job       : Web Developer
+  bio       : 'Durham, NC-based dev, astronomy geek and foodie.'
+  thumb     : /images/aa.jpeg
+  email     : andrewcandrea@gmail.com
+  url       : http://andycandrea.github.io
+  github    : http://github.com/andycandrea
+  linkedin  : http://linkedin.com/in/andycandrea
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: blog
+    title: Blog
+
+exclude: ['gulp', 'node_modules', 'bower', 'bower_components', 'config.rb', 'src', 'Gemfile', 'Gemfile.lock', '.rvmrc', '.rbenv-version', 'package.json', 'gulpfile.js', 'README.md', 'Rakefile', 'changelog.md']
