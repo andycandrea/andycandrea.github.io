@@ -14,8 +14,6 @@ gems:
 
 comments: true
 
-source: source
-destination: _site
 sass:
   sass_dir: _scss
   style: compressed # expanded
