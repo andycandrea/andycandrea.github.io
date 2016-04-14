@@ -5,17 +5,15 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "forms", "fieldset") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Define consistent border, margin, and padding.
  */
-	}
+  }
 
-	fieldset {
-		border: 1px solid #c0c0c0;
-		margin: 0 2px;
-		padding: 0.35em 0.625em 0.75em;
-	}
-
+  fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
 }

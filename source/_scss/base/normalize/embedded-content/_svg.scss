@@ -5,15 +5,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "embedded content", "svg") {
-
-	@if normalize-get("options", "explanatory comments") { 
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-	}
+  }
 
-	svg:not(:root) {
-		overflow: hidden;
-	}
-
+  svg:not(:root) {
+    overflow: hidden;
+  }
 }

@@ -5,17 +5,15 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "html5", "audio") {
-
-	@if normalize-get("options", "explanatory comments") { 
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-	}
+  }
 
-	audio:not([controls]) {
-		display: none;
-		height: 0;
-	}
-
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
 }

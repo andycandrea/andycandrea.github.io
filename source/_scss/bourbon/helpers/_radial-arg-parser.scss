@@ -24,7 +24,6 @@
       }
       $g1: null;
     }
-
     // If not spec calculate correct values
     @else {
       @if ($pos-type != color) or ($first-val != "transparent") {
@@ -41,7 +40,6 @@
             $g1: null;
           }
         }
-
         @else if
            ($first-val == "ellipse")
         or ($first-val == "circle")
@@ -57,7 +55,6 @@
           @if $value == $g1 {
             $g1: null;
           }
-
           @else if $value == $g2 {
             $g2: null;
           }

@@ -5,15 +5,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("options", "legacy support for ie7") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Correct margin displayed oddly in IE 7.
  */
-	}
+  }
 
-	form {
-	    margin: 0;
-	}
-
+  form {
+    margin: 0;
+  }
 }

@@ -5,15 +5,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "text level semantics", "small") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-	}
+  }
 
-	small {
-		font-size: 80%;
-	}
-
+  small {
+    font-size: 80%;
+  }
 }

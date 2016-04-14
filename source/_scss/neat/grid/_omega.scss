@@ -51,11 +51,9 @@
         margin-#{$direction}: 0;
       }
     }
-
     @else if contains-display-value($query) and $table == false {
       margin-#{$direction}: 0;
     }
-
     @else {
       @include nth-child($query, $direction);
     }

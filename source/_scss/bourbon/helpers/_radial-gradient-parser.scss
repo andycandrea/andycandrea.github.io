@@ -20,7 +20,6 @@
       spec-image: $image
     );
   }
-
   @else if $is-spec-syntax == 1 {
     $pos: str-slice($first-val, $is-spec-syntax + 3, str-length($first-val));
 
@@ -29,7 +28,6 @@
       spec-image: $image
     );
   }
-
   @else if str-index($image, "cover") or str-index($image, "contain") {
     @warn "Radial-gradient needs to be updated to conform to latest spec.";
 
@@ -38,7 +36,6 @@
       spec-image: $image
     );
   }
-
   @else {
     $gradients: (
       webkit-image: -webkit- + $image,

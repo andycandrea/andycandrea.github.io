@@ -22,25 +22,21 @@
         $webkit-background: $background;
         $spec-background:   $background;
       }
-
       @else if $gradient-type == "linear" {
         $gradients: _linear-gradient-parser("#{$background}");
         $webkit-background: map-get($gradients, webkit-image);
         $spec-background:   map-get($gradients, spec-image);
       }
-
       @else if $gradient-type == "radial" {
         $gradients: _radial-gradient-parser("#{$background}");
         $webkit-background: map-get($gradients, webkit-image);
         $spec-background:   map-get($gradients, spec-image);
       }
-
       @else {
         $webkit-background: $background;
         $spec-background:   $background;
       }
     }
-
     @else {
       $webkit-background: $background;
       $spec-background:   $background;

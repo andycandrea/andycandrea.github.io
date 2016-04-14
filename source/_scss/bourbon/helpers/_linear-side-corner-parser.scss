@@ -20,7 +20,6 @@
       spec-image: $image
     );
   }
-
   // Bring the code up to spec
   @else {
     @return (

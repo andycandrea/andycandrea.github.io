@@ -15,7 +15,6 @@
   @if $has-multiple-vals {
     $gradients: _linear-side-corner-parser($image, $first-val, $prefix, $suffix, $has-multiple-vals);
   }
-
   @else if $has-single-position != "" {
     $pos: unquote($has-single-position + "");
 
@@ -24,12 +23,10 @@
       spec-image: $prefix + "to " + $pos + $suffix
     );
   }
-
   @else if $has-angle {
     // Rotate degree for webkit
     $gradients: _linear-angle-parser($image, $first-val, $prefix, $suffix);
   }
-
   @else {
     $gradients: (
       webkit-image: -webkit- + $image,

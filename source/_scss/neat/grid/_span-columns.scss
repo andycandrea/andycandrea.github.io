@@ -81,7 +81,6 @@
       &:last-child {
         width: flex-grid($columns, $container-columns);
       }
-
     } @else {
       margin-#{$direction}: flex-gutter($container-columns);
       width: flex-grid($columns, $container-columns);

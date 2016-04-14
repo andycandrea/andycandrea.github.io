@@ -5,16 +5,14 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "text level semantics", "bold") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-	}
+  }
 
-	b,
-	strong {
-		font-weight: bold;
-	}
-
+  b,
+  strong {
+    font-weight: bold;
+  }
 }

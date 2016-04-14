@@ -5,27 +5,25 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("parts", "text level semantics", "sub sup") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-	}
+  }
 
-	sub,
-	sup {
-		font-size: 75%;
-		line-height: 0;
-		position: relative;
-		vertical-align: baseline;
-	}
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
 
-	sup {
-		top: -0.5em;
-	}
+  sup {
+    top: -0.5em;
+  }
 
-	sub {
-		bottom: -0.25em;
-	}
-
+  sub {
+    bottom: -0.25em;
+  }
 }

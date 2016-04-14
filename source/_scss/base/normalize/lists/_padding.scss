@@ -5,16 +5,14 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("options", "legacy support for ie7") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Address paddings set differently in IE 7.
  */
-	}
+  }
 
-	ol,
-	ul {
-	    padding: 0 0 0 40px;
-	}
-
+  ol,
+  ul {
+    padding: 0 0 0 40px;
+  }
 }

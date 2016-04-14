@@ -17,25 +17,21 @@
         $webkit-border: $border;
         $spec-border:   $border;
       }
-
       @else if $gradient-type == "linear" {
         $gradients: _linear-gradient-parser("#{$border}");
         $webkit-border: map-get($gradients, webkit-image);
         $spec-border:   map-get($gradients, spec-image);
       }
-
       @else if $gradient-type == "radial" {
         $gradients: _radial-gradient-parser("#{$border}");
         $webkit-border: map-get($gradients, webkit-image);
         $spec-border:   map-get($gradients, spec-image);
       }
-
       @else {
         $webkit-border: $border;
         $spec-border:   $border;
       }
     }
-
     @else {
       $webkit-border: $border;
       $spec-border:   $border;

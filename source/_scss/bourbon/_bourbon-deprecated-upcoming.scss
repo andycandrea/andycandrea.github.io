@@ -87,15 +87,12 @@
   @if $type == simple {
     @include simple($b-color, false, $t-size, $pad);
   }
-
   @else if $type == shiny {
     @include shiny($b-color, false, $t-size, $pad);
   }
-
   @else if $type == pill {
     @include pill($b-color, false, $t-size, $pad);
   }
-
   @else if $type == flat {
     @include flat($b-color, false, $t-size, $pad);
   }

@@ -5,21 +5,19 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 @if normalize-get("options", "legacy support for ie7") {
-
-	@if normalize-get("options", "explanatory comments") {
+  @if normalize-get("options", "explanatory comments") {
 /**
  * Address margins set differently in IE 7.
  */
-	}
+  }
 
-	dl,
-	ol,
-	ul {
-	    margin: 1em 0;
-	}
+  dl,
+  ol,
+  ul {
+    margin: 1em 0;
+  }
 
-	dd {
-	    margin: 0 0 0 40px;
-	}
-
+  dd {
+    margin: 0 0 0 40px;
+  }
 }
