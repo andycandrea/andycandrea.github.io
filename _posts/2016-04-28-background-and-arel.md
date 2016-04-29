@@ -6,9 +6,6 @@ published: true
 tags: code, ruby, rails, arel
 ---
 
-# A Little Background (and Introducing My Arel Series!)
--------------------------------------------------------------------------------
-
 With the exception of building a basic HTML page back in middle school, my first
 exposure to programming was during my sophomore year of college. At the time, I
 was an astrophysics major. To satisfy one of the requirements for my degree, I
