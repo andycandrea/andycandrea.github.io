@@ -7,7 +7,7 @@ tags: code, ruby, rails, arel
 ---
 
 # A Little Background (and Introducing My Arel Series!)
-===============================================================================
+-------------------------------------------------------------------------------
 
 *This series on Arel is adapted from my posts on the SciMed blog, which you can
 find [here](scimedsolutions.com/articles).*
