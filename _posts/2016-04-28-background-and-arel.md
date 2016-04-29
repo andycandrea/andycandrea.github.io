@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Background & Arel
+title: A Little Background (and an Introduction to My Series on Arel!)
 date: 2016-04-27 16:56:00
 published: true
 tags: code, ruby, rails, arel
@@ -19,7 +19,7 @@ course title included "Introduction" and there were no CS prereqs, this wasn't
 going to teach me anything about programming. I struggled through the semester
 and somehow ended up with a B even though I didn't even have a clue about such
 advanced topics as the programmatical meanings of "loops" and "conditionals" by
-the time finals rolled around.\*
+the time finals rolled around[^1].
 
 The following summer, I signed up for an introductory programming class in the
 CS department using the same language that I'd used in my physics class
@@ -31,8 +31,8 @@ Now that I had a little more background and context, I fell in love with writing
 code. By the time that the summer finished, I'd already decided to add a second
 major in computer science.
 
-Over the next two years, I dabbled in several programming languages--Java, C,
-JavaScript, Python, MATLAB and IDL, if memory serves--but didn't even come close
+Over the next two years, I dabbled in several programming languages—Java, C,
+JavaScript, Python, MATLAB and IDL, if memory serves—but didn't even come close
 to mastering one. Luckily, I had one class that exposed me to relational
 database design and SQL, which helped me to land [a fantastic
 internship](https://www.viget.com/internships/rails-developer-intern),
@@ -41,7 +41,7 @@ where I started to develop the web dev skills that I'm now extremely proud of.
 During my internship, I was exposed to my first
 [ORM](http://stackoverflow.com/questions/1152299/what-is-an-object-relational-mapping-framework):
 ActiveRecord. At first, I thought that it was the most wonderful tool that I'd
-ever encountered--with a simple `save` or `update_attributes`, I could update my
+ever encountered—with a simple `save` or `update_attributes`, I could update my
 data without ever having to write a single `INSERT`.
 
 Since then, I've learned a lot. I now know that both Rails and ActiveRecord,
@@ -62,15 +62,15 @@ have to search through your entire codebase to figure out if anything is
 incompatible in Oracle. Meanwhile, if you'd stuck with ActiveRecord, all you'd
 need to do is swap out the adapter specified in your `database.yml`. Using
 ActiveRecord also makes it much less painful if you need to connect to different
-types of databases in different Rails environments--I've seen it happen--since
+types of databases in different Rails environments—I've seen it happen—since
 all of ActiveRecord queries will get automatically translated into the proper
 dialect before they hit your database.
 
 That said, ActiveRecord isn't perfect, and it's unfortunately not as
 feature-complete as raw SQL when it comes to interacting with your database.
 Luckily for those of us who tend to hit plenty of use cases too complicated for
-ActiveRecord to handle--[writing software for the world's leading
-minds](http://www.scimedsolutions.com/) tends to be non-trivial--Rails gives us
+ActiveRecord to handle—[writing software for the world's leading
+minds](http://www.scimedsolutions.com/) tends to be non-trivial—Rails gives us
 another option for keeping our database code generalized: Arel.
 
 For those who have never used it before, [Arel](https://github.com/rails/arel)
@@ -87,6 +87,5 @@ out there or read slightly modified versions here on
 [andycandrea.github.io](andycandrea.github.io). Heck, you can even read both if
 you so desire, though the content is quite similar.
 
-\* I did, at least, learn a few fun [MATLAB Easter
-eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know?requestedDomain=www.mathworks.com)
-in that class, though.
+-------------------------------------------------------------------------------
+[^1]: I did, at least, learn a few fun [MATLAB Easter eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know?requestedDomain=www.mathworks.com) in that class, though.
