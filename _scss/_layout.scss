@@ -267,7 +267,7 @@ body.home {
     @extend .card;
 
     a {
-      color: $base-font-color;
+      color: $black-color;
 
       &:hover,
       &:active,
@@ -302,7 +302,7 @@ body.home {
   }
 }
 
-.social.inverse {
+.inverse {
   a {
     color: $primary-color;
 
