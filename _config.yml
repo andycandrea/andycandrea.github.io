@@ -3,7 +3,7 @@ description: "Andy's Blog"
 url: 'http://andycandrea.github.io'
 
 paginate: 5
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
 gems:
