@@ -3,6 +3,7 @@ layout: post
 title: That Old Wisconsin Feeling, Part I
 date: 2016-04-12 23:36:00
 published: true
+comments: true
 tags: life
 ---
 

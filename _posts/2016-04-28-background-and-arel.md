@@ -3,6 +3,7 @@ layout: post
 title: A Little Background (and an Introduction to My Series on Arel!)
 date: 2016-04-27 16:56:00
 published: true
+comments: true
 tags: code, ruby, rails, arel
 ---
 
