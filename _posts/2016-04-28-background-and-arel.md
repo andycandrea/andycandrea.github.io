@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Little Background (and an Introduction to My Series on Arel!)
+title: A Little Background (and Introducing My Series on Arel!)
 date: 2016-04-27 16:56:00
 published: true
 comments: true
@@ -10,7 +10,7 @@ tags: code, ruby, rails, arel
 With the exception of building a basic HTML page back in middle school, my first
 exposure to programming was during my sophomore year of college. At the time, I
 was an astrophysics major. To satisfy one of the requirements for my degree, I
-took a class called "Introduction to Numerical Techniques in Physics", which had
+took a class called _Introduction to Numerical Techniques in Physics_, which had
 been described to me as basically "programming for physicists". Since I've
 always been interested in both computers and computing, I excitedly signed up
 for the only 8AM class I'd ever take in college.
@@ -20,7 +20,7 @@ course title included "Introduction" and there were no CS prereqs, this wasn't
 going to teach me anything about programming. I struggled through the semester
 and somehow ended up with a B even though I didn't even have a clue about such
 advanced topics as the programmatical meanings of "loops" and "conditionals" by
-the time finals rolled around[^1].
+the time finals rolled around.[^1]
 
 The following summer, I signed up for an introductory programming class in the
 CS department using the same language that I'd used in my physics class
@@ -33,8 +33,8 @@ code. By the time that the summer finished, I'd already decided to add a second
 major in computer science.
 
 Over the next two years, I dabbled in several programming languages—Java, C,
-JavaScript, Python, MATLAB and IDL, if memory serves—but didn't even come close
-to mastering one. Luckily, I had one class that exposed me to relational
+JavaScript, Python, MATLAB and IDL, if memory serves—but didn't feel extremely
+comfortable in one. Luckily, I had one class that exposed me to relational
 database design and SQL, which helped me to land [a fantastic
 internship](https://www.viget.com/internships/rails-developer-intern),
 where I started to develop the web dev skills that I'm now extremely proud of.
@@ -89,4 +89,5 @@ out there or read slightly modified versions here on
 you so desire, though the content is quite similar.
 
 -------------------------------------------------------------------------------
-[^1]: I did, at least, learn a few fun [MATLAB Easter eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know?requestedDomain=www.mathworks.com) in that class, though.
+
+[^1]: I did, at least, learn a few fun [MATLAB Easter eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know) in that class, though.
