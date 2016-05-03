@@ -55,8 +55,8 @@ Article.where(title: target_title)
 
 Depending on your database configuration, this may only do case-sensitive, exact
 matches. If your user just remembers one of the words in the article title
-they're looking for—for example, "Rails"—they might not get back "Advanced Rails
-Topics" or even "RAILS". Luckily, Arel gives us all we need to ensure our
+they're looking for—for example, *Rails*—they might not get back *Advanced Rails
+Topics* or even *RAILS*. Luckily, Arel gives us all we need to ensure our
 intended behavior with the following query:
 
 ~~~ruby
@@ -67,7 +67,7 @@ Article.where(
 )
 ~~~
 
-If the user passes in "Rails" in the title search field, this will generate the
+If the user passes in *Rails* in the title search field, this will generate the
 following SQL:
 
 ~~~sql
