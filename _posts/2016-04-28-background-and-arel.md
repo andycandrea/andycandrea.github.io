@@ -90,4 +90,6 @@ you so desire, though the content is quite similar.
 
 -------------------------------------------------------------------------------
 
+#### Footnotes
+
 [^1]: I did, at least, learn a few fun [MATLAB Easter eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know) in that class, though.
