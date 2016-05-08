@@ -4,6 +4,7 @@ title: Book Review - "Ready Player One" by Ernest Cline
 date: 2016-05-03 22:43:00
 published: true
 comments: true
+excerpt: From its opening chapters, "Ready Player One" promises a lot; if I were to attempt to categorize it...
 tags: ready player one ernest cline book review
 ---
 

@@ -4,6 +4,7 @@ title: Arel Part II — CTE Boogaloo
 date: 2016-05-08 6:19:00
 published: true
 comments: true
+excerpt: I was heading up a project about a year ago when a new requirement came through...
 tags: code, ruby, rails, arel
 ---
 

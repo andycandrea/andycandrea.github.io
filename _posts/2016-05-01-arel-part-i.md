@@ -4,6 +4,7 @@ title: Arel Part I — The Searchening
 date: 2016-05-01 5:58:00
 published: true
 comments: true
+excerpt: In recent years, the developer community has seen an increased focus on providing good user experience...
 tags: code, ruby, rails, arel
 ---
 
