@@ -85,11 +85,12 @@ The power, flexibility and generalizability behind Arel prompted me to write a
 short series of posts containing intermediate Arel recipes for the blog over at
 [scimedsolutions.com](scimedsolutions.com/articles). You can check the originals
 out there or read slightly modified versions here on
-[andycandrea.github.io](andycandrea.github.io). Heck, you can even read both if
-you so desire, though the content is quite similar.
+[andycandrea.github.io](andycandrea.github.io).[^2] Heck, you can even read both
+if you so desire, though the content is quite similar.
 
 -------------------------------------------------------------------------------
 
 #### Footnotes
 
 [^1]: I did, at least, learn a few fun [MATLAB Easter eggs](http://www.mathworks.com/matlabcentral/answers/2001-what-matlab-easter-eggs-do-you-know) in that class, though.
+[^2]: Part I can be found [here](/2016/05/01/arel-part-i.html) and Part II can be found [here](/2016/05/08/arel-part-ii.html) (Part III is incoming).
