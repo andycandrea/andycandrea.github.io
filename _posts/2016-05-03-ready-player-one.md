@@ -56,7 +56,7 @@ websites that exist in 2016—see
 examples—this Easter egg is a hidden element that can only be accessed by
 fulfilling a set of less than obvious criteria. In this case, the first person
 that's able to find the egg will be awarded the vast fortune of the OASIS's
-creator, James Halliday, and untold power over the future of the OASIS.
+creator, James Halliday, and untold power over the future of the OASIS itself.
 
 In a world where the OASIS is an even bigger cultural phenomenon than the modern
 Internet, the stakes couldn't be higher, and the competition couldn't be more
@@ -81,20 +81,21 @@ quickly, as I can't claim to be particularly knowledgeable about the pop culture
 of the decade prior to my birth. In practice, though, many references were
 either well-explained (the setting of
 [Zork](https://en.wikipedia.org/wiki/Zork)) or extremely well-known (how to play
-Pacman). Cline also did a great job of throwing in references to elements more
-modern geek culture, like *Firefly*, *World of Warcraft* or [Wil
+Pacman). Cline also did a great job of throwing in references to elements of
+more modern geek culture, like *Firefly*, *World of Warcraft* or [Wil
 Wheaton](https://en.wikipedia.org/wiki/Wil_Wheaton).[^2] Further, he managed to
-take his references from varying media including video games, movies and
-television, which helped to prevent anything from feeling stale.
+take his references from varying types of media including games, movies and
+television, which helped to prevent references to any one form from feeling
+stale.
 
 Due to Wade's independent nature and the book's first-person perspective, I felt
 that I didn't get to spend much time with the supporting characters. Somehow,
 though, each of the other main characters—or my perspectives of them, at
-least—managed to grow as the book progressed. I will admit that I was somewhat
+least—managed to grow as the book progressed. I will admit that I was initially
 surprised by Cline's decision to transform Wade from physically overweight to
-physically fit. It seemed at first to make him somewhat more generic as a
-protagonist, though I soon learned that his physical transformation served a
-specific purpose later in the story.
+physically fit. At first, it seemed to make him somewhat more generic as a
+protagonist, though I later learned that his physical transformation would serve
+a plot point later in the story.
 
 ## The Neutral :neutral_face:
 
@@ -109,8 +110,8 @@ While the more fun and fantastic elements of Cline's universe were just that,
 the less happy elements of the story felt quite underdeveloped. While it's very
 clear that the condition of the world in which Wade lives is extremely poor from
 the first few chapters, I felt like much of these details became irrelevant and
-forgotten as the story progressed, serving only to provide explanation for the
-existence of the story's antagonistic evil corporation, IOI.
+forgotten as the story progressed, serving only to explain the existence of the
+story's antagonistic evil corporation, IOI.
 
 Speaking of which, the book's "big bad" was a very generic blemish on a work
 that was otherwise largely fun and creative. From their motivation that can
@@ -126,11 +127,11 @@ popular work of fiction.
 I will say, though, that I've yet to read *Lacero*,[^3] which provides some
 additional backstory to the primary antagonist of *Ready Player One* and is now
 published within newer editions of the book. It's quite possible that this would
-provide me with additional context that would lessen these negative opinions.
+provide me with additional context that would impact my opinions.
 
 ## The Verdict :video_game:
 
-Overall, *Ready Player One* is a fantasically fun work of fiction. Cline does a
+Overall, *Ready Player One* is a fantastically fun work of fiction. Cline does a
 remarkable job of blending the familiar (to me, at least) world of geeky pop
 culture with a brand new world of his own creation. Excluding his almost
 comedically undeveloped villains, I found few noteworthy flaws and a great deal

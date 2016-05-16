@@ -26,10 +26,10 @@ remember, though, that back-end implementation details can improve a user's
 experience independent of the operations being conducted within that user's
 browser.
 
-One feature that this is particularly relevant to is search. You can have myriad
-search forms that are exactly the same on the front-end that function incredibly
+This is particularly relevant to search features. You can have myriad search
+forms that are exactly the same on the front-end that function incredibly
 differently: they can use the exact same markup and styling and send the exact
-same HTTP request back to a server but receive very different responses. On the
+same HTTP request to a server but receive very different responses. On the
 back-end, a search can be case-sensitive or fuzzy, or it can even have a given
 string split into multiple `WHERE` conditions based on a delimiter or flag.
 
@@ -56,7 +56,7 @@ Article.where(title: target_title)
 
 Depending on your database configuration, this may only do case-sensitive, exact
 matches. If your user just remembers one of the words in the article title
-they're looking for—for example, *Rails*—they might not get back *Advanced Rails
+they're looking for—*Rails*, for example—they might not get back *Advanced Rails
 Topics* or even *RAILS*. Luckily, Arel gives us all we need to ensure our
 intended behavior with the following query:
 

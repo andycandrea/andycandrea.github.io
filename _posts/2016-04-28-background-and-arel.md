@@ -7,30 +7,27 @@ comments: true
 tags: code, ruby, rails, arel
 ---
 
-With the exception of building a basic HTML page back in middle school, my first
-exposure to programming was during my sophomore year of college. At the time, I
-was an astrophysics major. To satisfy one of the requirements for my degree, I
-took a class called _Introduction to Numerical Techniques in Physics_, which had
-been described to me as basically "programming for physicists". Since I've
-always been interested in both computers and computing, I excitedly signed up
-for the only 8AM class I'd ever take in college.
+With the exception of some basic HTML back in middle school, my first exposure
+to programming was during my sophomore year of college. At the time, I was
+majoring solely in astrophysics. To satisfy one of the requirements for my
+degree, I took a class called _Introduction to Numerical Techniques in Physics_,
+which had been described to me as basically "programming for physicists". Since
+I'd always been interested in both computers and computing, I excitedly signed
+up for the only 8 AM class I would ever take in college.
 
-Once the semester started, I quickly came to realize that, even though the
-course title included "Introduction" and there were no CS prereqs, this wasn't
-going to teach me anything about programming. I struggled through the semester
-and somehow ended up with a B even though I didn't even have a clue about such
-advanced topics as the programmatical meanings of "loops" and "conditionals" by
-the time finals rolled around.[^1]
+I quickly came to realize that, even though the course claimed to be an
+"Introduction" and there were no CS prereqs, this class wasn't going to teach me
+anything about programming. I struggled through the semester; by the time finals
+rolled around, I barely had a clue about such advanced topics as "loops" and
+"conditionals".[^1]
 
-The following summer, I signed up for an introductory programming class in the
-CS department using the same language that I'd used in my physics class
-(MATLAB). The difference between the two classes was, frankly, night and day. It
-was amazing how much easier it was to learn when you start from the beginning
-with a simple "Hello, world!" program instead of writing supernova simulations
-and generating solutions to systems of differential equations from the get-go.
-Now that I had a little more background and context, I fell in love with writing
-code. By the time that the summer finished, I'd already decided to add a second
-major in computer science.
+The following summer, I took a truly introductory programming class. The
+difference between the two classes was, frankly, night and day—it's amazing how
+much easier it is to learn when you start with a simple "Hello, world!" program
+instead of simulating supernovae and generating solutions to complex systems of
+differential equations from the get-go. Once I had a little more background and
+context, I fell in love with writing code. By the time that the summer finished,
+I'd already decided to pick up a second major: computer science.
 
 Over the next two years, I dabbled in several programming languages—Java, C,
 JavaScript, Python, MATLAB and IDL, if memory serves—but didn't feel extremely
@@ -45,7 +42,7 @@ ActiveRecord. At first, I thought that it was the most wonderful tool that I'd
 ever encountered—with a simple `save` or `update_attributes`, I could update my
 data without ever having to write a single `INSERT`.
 
-Since then, I've learned a lot. I now know that both Rails and ActiveRecord,
+I've learned a lot since then. I now know that both Rails and ActiveRecord,
 while great tools, have enough flaws to warrant their own lengthy blog posts.
 Happily, I no longer shudder at the sound of the phrase "raw SQL"; in fact, I've
 come to enjoy writing out queries, views and common table expressions manually.
@@ -59,13 +56,13 @@ future-proofing.
 One of the great advantages of sticking with an ORM is generalization. If you
 write raw SQL all over your Postgres-backed application only to discover that
 your client needs you to use Oracle a few years down the road, you're going to
-have to search through your entire codebase to figure out if anything is
-incompatible in Oracle. Meanwhile, if you'd stuck with ActiveRecord, all you'd
-need to do is swap out the adapter specified in your `database.yml`. Using
-ActiveRecord also makes it much less painful if you need to connect to different
-types of databases in different Rails environments—I've seen it happen—since
-all of ActiveRecord queries will get automatically translated into the proper
-dialect before they hit your database.
+have to search through your entire codebase to figure out if anything needs to
+be rewritten to be compatible with Oracle. Meanwhile, if you'd stuck with
+ActiveRecord, all you'd need to do is swap out the adapter specified in your
+`database.yml`. Using ActiveRecord also makes it much less painful if you need
+to connect to different types of databases in different Rails environments—I've
+seen it happen—since all ActiveRecord queries will get automatically translated
+into the proper dialect before they hit your database.
 
 That said, ActiveRecord isn't perfect, and it's unfortunately not as
 feature-complete as raw SQL when it comes to interacting with your database.

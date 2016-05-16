@@ -23,7 +23,7 @@ from all the tables that were relevant to their request.
 
 For anyone new enough to database design to have never used a view, they're
 incredibly useful. You can define a view similarly to a table, but, unlike a
-table, it's built up of columns and data that actually live elsewhere--whether
+table, it's built up of columns and data that actually live elsewhere—whether
 that be a table or even another view. Since you just have to write the query to
 define your view once, it makes querying data that originates from multiple
 locations a cinch since you can just write a simple `SELECT` without any
@@ -39,11 +39,11 @@ materialized views
 (the answer by Mike McAllister is currently my favorite).
 
 After writing the first draft of the database view for the client's
-biostatisticians, it was time to test it out. After playing around with it for a
-while, we discovered that, while the data was all there, the performance
-degraded rapidly as our dataset increased in size. With the help of one of my
-colleagues, we rewrote the view to use common table expressions (CTEs) and
-bettered our performance by several orders of magnitude.
+biostatisticians, it was time to test it out. After a little bit of tinkering,
+we discovered that, while the data was all there, the performance degraded
+rapidly as our dataset increased in size. With the help of one of my colleagues,
+we rewrote the view to use common table expressions (CTEs) and bettered our
+performance by several orders of magnitude.
 
 If you're relatively unfamiliar with CTEs, you can think of them as a sort of
 named, temporary table built by querying existing artifacts in your database.
