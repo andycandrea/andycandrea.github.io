@@ -6,17 +6,14 @@
       <div id="disqus_thread"></div>
       <script>
         var disqus_config = function () {
-          this.page.url = "andycandrea.github.io{{ page.url }}";
+          this.page.url = "{{site.url}}{{ page.url }}";
           this.page.identifier = "{{ page.id }}";
-          console.log('url: ' + this.page.url);
-          console.log('id: ' + this.page.identifier);
         };
 
         (function() {  // DON'T EDIT BELOW THIS LINE
           var d = document, s = d.createElement('script');
 
           s.src = '//andysvigeblog.disqus.com/embed.js';
-          console.log('src: ' + s.src);
 
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
