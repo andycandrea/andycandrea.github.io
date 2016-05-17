@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review - "Ready Player One" by Ernest Cline
+title: Book Review — "Ready Player One" by Ernest Cline
 date: 2016-05-03 22:43:00
 published: true
 comments: true
