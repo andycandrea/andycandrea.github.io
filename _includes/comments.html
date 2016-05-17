@@ -5,16 +5,18 @@
       <h3><i class="icon icon-comments-o"></i> Comments</h3>
       <div id="disqus_thread"></div>
       <script>
-        var disqus_shortname = 'andysvigeblog' // Not exactly accurate any more
-
         var disqus_config = function () {
           this.page.url = "andycandrea.github.io{{ page.url }}";
           this.page.identifier = "{{ page.id }}";
+          console.log('url: ' + this.page.url);
+          console.log('id: ' + this.page.identifier);
         };
+
         (function() {  // DON'T EDIT BELOW THIS LINE
           var d = document, s = d.createElement('script');
 
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          s.src = '//andysvigeblog.disqus.com/embed.js';
+          console.log('src: ' + s.src);
 
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
