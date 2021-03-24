@@ -1,12 +1,12 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'rake'
-gem 'sass'
+source 'https://rubygems.org'
+
+gem 'github-pages'
 gem 'jekyll'
-gem 'jekyll-sitemap'
 gem 'jekyll-mentions'
 gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
 gem 'jemoji'
-gem 'github-pages'
+gem 'rake'
+gem 'sass'
