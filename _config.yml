@@ -1,5 +1,5 @@
 name: 'Andy Andrea'
-description: "Andy's Blog"
+description: 'Andy Andrea'
 url: 'http://andycandrea.github.io'
 
 paginate: 5
@@ -20,7 +20,7 @@ sass:
 
 # SEO settings
 title: 'Andy Andrea'
-keywords: 'andy, andrea, ruby, rails, durham, nc, blog, web'
+keywords: 'andy, andrea, ruby, rails, durham, nc, web'
 
 repo: http://github.com/andycandrea/andycandrea.github.io
 
@@ -39,7 +39,5 @@ author:
 navbar:
   - slug: about
     title: About
-  - slug: blog
-    title: Blog
 
 exclude: ['gulp', 'node_modules', 'bower', 'bower_components', 'config.rb', 'src', 'Gemfile', 'Gemfile.lock', '.rvmrc', '.rbenv-version', 'package.json', 'gulpfile.js', 'README.md', 'Rakefile', 'changelog.md']
