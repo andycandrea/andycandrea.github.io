@@ -10,3 +10,8 @@ gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'rake'
 gem 'sass'
+
+
+group :development do
+  gem 'bundler-audit'
+end
